@@ -10,6 +10,7 @@ created: 2022-04-18
 ```
 campaign_type: binary
 executor: long timelock executor
+long executor contract: 0x7d4d05B1a1E5775a9C6ca248ABBE629B52C1D9D9
 voting_power: current staked voting power
 execution: Calibrate KyberDAO Governance Parameters
 start_timestamp: 1650351600 (Tuesday, 19 April 2022 07:00:00 UTC)
@@ -113,6 +114,8 @@ daoOperator address (multisig): 0xe6a7338cba0a1070adfb22c07115299605454713
 | Max voting options |                                           Maximum number of options in a proposal                                            |              8 | 8             |
 | Vote differential  | The difference needed between the votes behind the For/Against options (percentage of Total KNC supply in the market needed) |          0.01% | 15%           |
 | Min quorum         |                      Minimum percentage of Total KNC supply in the market needed for the winning option                      |             4% | 20%           |
+
+The new Timelock Executor has been deployed here: 0x7d4d05B1a1E5775a9C6ca248ABBE629B52C1D9D9 with corresponding configurations.
 
 ### Other Important Considerations
 
